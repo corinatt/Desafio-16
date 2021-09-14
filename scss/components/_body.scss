@@ -1,0 +1,8 @@
+@import "../base/variables";
+@import "../base/listas";
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color:nth($colores, 6 ) 
+}
