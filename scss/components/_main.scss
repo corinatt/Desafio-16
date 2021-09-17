@@ -5,12 +5,11 @@ main {
   .titulo-index {
     display: flex;
     justify-content: center;
-    position: relative;
-    background-color: nth($colores, 5 );
-    
+    position:absolute;
+    top: 200px;
 
       h1 {
-        color: nth($colores, 2);
+        color: nth($colores, 1);
         font-family: $font-h1;
         letter-spacing: $letter-spacing-titulos;
         font-size: $font-size-h1;
@@ -20,14 +19,19 @@ main {
         padding: 50px;
       }
   }
+  .p-h1{
+    position: absolute;
+    top: 350px;
 
-  .parrafo-h1{
-    background-color: nth($colores, 5 );
-    text-align: center;
-    font-size: $font-size-subtitulos;
-    font-family: $font-h1;
-        
-    
+
+    .parrafo-h1{
+      color: nth($colores, 1 );
+      text-align: center;
+      font-size: $font-size-subtitulos;
+      font-family: $font-h1;
+      
+    }
+      
   }
 
   h1 {
