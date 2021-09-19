@@ -31,6 +31,21 @@ main .p-h1 .parrafo-h1 {
   font-size: 30px;
   font-family: "roboto";
 }
+main .img-2 {
+  width: 600px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+  from {
+    margin-right: 0%;
+    width: 100%;
+  }
+  to {
+    margin-left: 900px;
+  }
+}
 main h1 {
   color: white;
   font-family: "roboto";
