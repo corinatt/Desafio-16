@@ -4,8 +4,23 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color:nth($colores, 6 );
+  background-color:nth($colores, 1 );
   overflow-x: hidden;
+
+  .navbar-nav{
+    border-bottom-left-radius:100px;
+  }
+
+  .info-nav{
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+  }
+  .info-nav:hover {
+    width: 300px;
+  }
+  
+      
   
 
 }

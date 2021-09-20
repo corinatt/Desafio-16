@@ -22,17 +22,17 @@ main .titulo-index h1 {
   padding: 50px;
 }
 main .p-h1 {
-  position: absolute;
-  top: 350px;
+  margin-top: 250px;
 }
 main .p-h1 .parrafo-h1 {
   color: black;
-  text-align: center;
+  text-align: justify;
   font-size: 30px;
   font-family: "roboto";
 }
 main .img-2 {
-  width: 600px;
+  width: 500px;
+  margin-top: -300px;
   animation-name: move;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -43,15 +43,8 @@ main .img-2 {
     width: 100%;
   }
   to {
-    margin-left: 900px;
+    margin-left: 70%;
   }
-}
-main h1 {
-  color: white;
-  font-family: "roboto";
-  letter-spacing: 5px;
-  font-size: 50px;
-  line-height: 6;
 }
 main .main-h2 {
   color: white;
@@ -118,8 +111,19 @@ footer p {
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #96879a;
+  background-color: black;
   overflow-x: hidden;
+}
+body .navbar-nav {
+  border-bottom-left-radius: 100px;
+}
+body .info-nav {
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+}
+body .info-nav:hover {
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

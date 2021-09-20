@@ -20,13 +20,12 @@ main {
       }
   }
   .p-h1{
-    position: absolute;
-    top: 350px;
+    margin-top: 250px;
 
 
     .parrafo-h1{
       color: nth($colores, 1 );
-      text-align: center;
+      text-align:justify;
       font-size: $font-size-subtitulos;
       font-family: $font-h1;
       
@@ -35,7 +34,8 @@ main {
   }
 
   .img-2{
-    width: 600px;
+    width: 500px;
+    margin-top: -300px;
     animation-name: move;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -47,18 +47,11 @@ main {
         width: 100%;
       }
       to {
-        margin-left: 900px;
+        margin-left: 70%;
         
       }
     }
 
-  h1 {
-    color: nth($colores, 2);
-    font-family: $font-h1;
-    letter-spacing: $letter-spacing-titulos;
-    font-size: $font-size-h1;
-    line-height: 6;
-  }
   /*titulos secciones*/
   .main-h2 {
     color: nth($colores, 2);
