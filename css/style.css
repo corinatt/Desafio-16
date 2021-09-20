@@ -106,11 +106,17 @@ footer .social ul {
 footer p {
   color: black;
 }
+footer .compras p {
+  color: black;
+}
+footer .compras img {
+  width: 70px;
+}
 
 body {
   margin: 0%;
   padding: 0%;
-  background-color: black;
+  background-color: #c0a6a5;
   overflow-x: hidden;
 }
 body .navbar-nav {

@@ -21,4 +21,16 @@ footer {
   p {
     color: nth($colores, 1);
   }
+
+  .compras {
+    
+        p{
+          color: nth($colores , 1 );
+          
+        }
+
+        img {
+          width: 70px;
+        }
+      }
 }
