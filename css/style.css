@@ -40,10 +40,9 @@ main .img-2 {
 @keyframes move {
   from {
     margin-right: 0%;
-    width: 100%;
   }
   to {
-    margin-left: 70%;
+    margin-left: 60%;
   }
 }
 main .main-h2 {
@@ -117,12 +116,12 @@ body {
 body .navbar-nav {
   border-bottom-left-radius: 100px;
 }
-body .info-nav {
+body .section-nav {
   width: 100px;
-  height: 100px;
+  height: 50px;
   transition: width 2s;
 }
-body .info-nav:hover {
+body .section-nav:hover {
   width: 300px;
 }
 

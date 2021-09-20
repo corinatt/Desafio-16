@@ -11,12 +11,12 @@ body {
     border-bottom-left-radius:100px;
   }
 
-  .info-nav{
+  .section-nav{
     width: 100px;
-    height: 100px;
+    height: 50px;
     transition: width 2s;
   }
-  .info-nav:hover {
+  .section-nav:hover {
     width: 300px;
   }
   
