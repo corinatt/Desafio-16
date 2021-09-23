@@ -25,6 +25,7 @@
   <!-- Css  -->
   <link rel="stylesheet" href="css/style.css">
   <!--font h1-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Source+Sans+Pro&family=Teko&display=swap"
@@ -33,8 +34,9 @@
 </head>
 
 <body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-auto mx-auto p-1">
+  <div class="contenedor">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-auto mx-auto p-1">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="Image/Logo-djn.png" alt="logo" width="150"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -67,13 +69,10 @@
         </div>
       </div>
     </nav>
-  </header>
-  <main>
-    <!-- carrusell 
-    <div class="row justify-content-center ">
-      <img src="Image/bg-white.png" alt="imagen portada">      
-    </div>-->
-    <section class="container-fluid bg-white ">
+    </header>
+    <main>
+    <!-- portada  -->
+        <section class="container-fluid bg-white portada">
         <div class="titulo-index">
         <h1>Audio de alta resolución</h1>
         </div>
@@ -131,7 +130,7 @@
         </section>
       </section>
     </main>
-  <footer>
+    <footer>
     <section class="compras container">
       <div class="row">
         <div class="col-lg-4 text-center">
@@ -182,6 +181,7 @@
         <p>Bulnes 828 - CABA - Argentina ▬ Horarios: 10hs a 18hs ▬ Telefonos: 4555-8646 ▬</p>
       </section>
     </section>
+  </div>  
   </footer>
 
 
