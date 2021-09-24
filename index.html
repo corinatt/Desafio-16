@@ -24,6 +24,8 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <!-- Css  -->
   <link rel="stylesheet" href="css/style.css">
+  <!--link a AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--font h1-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,22 +36,24 @@
 </head>
 
 <body>
-  <div class="contenedor">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-auto mx-auto p-1">
+  <header class="header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  mx-auto p-1 desktop">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="Image/Logo-djn.png" alt="logo" width="150"></a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>          
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto fs-5 btn btn-secondary ">
             <li class="nav-item mx-4 section-nav">
               <a class="nav-link active" aria-current="page" href="#Información">Información</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle mx-3" href="Productos.html" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="Productos.html" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Productos
               </a>
@@ -69,50 +73,83 @@
         </div>
       </div>
     </nav>
-    </header>
-    <main>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5 mx-auto celular">
+      <div class="container">
+        <a class="navbar-brand img-nav" href="index.html"><img src=""
+            alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="laempresa.html">La Empresa</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="infraestructura.html">Infraestructura</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="clientes.html">Nuestros clientes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
     <!-- portada  -->
-        <section class="container-fluid bg-white portada">
-        <div class="titulo-index">
-        <h1>Audio de alta resolución</h1>
-        </div>
-        <section>
-          <div class="row">
-          <div class="col-lg-6 col-sd-12 d-flex align-items-justify ">
-            <div class="p-h1">
-              <p class="text-dark">El audio de alta-Resolution hace referencia a una colección de procesos digitales
-              y formatos que permiten codificar y reproducir la música con velocidades de muestreo superiores que las que se
-              utilizan en los CD estándares.</p>
-            </div>
+    <section class="container-fluid bg-white py-3 h-100  ">
+      <div class="row" >
+        <div class="col-lg-5 col-md-12 d-flex align-items-center px-3 mx-auto  ">
+          <div>
+            <h1>Audio de alta resolución</h1>
+            <p class="text-dark  ">El audio de alta-Resolution hace
+              referencia a una colección de procesos digitales
+              y formatos que permiten codificar y reproducir la música con velocidades de muestreo superiores que las
+              que se
+              utilizan en los CD estándares.
+            </p>
           </div>
+        </div>      
+        <div class="img-2 col-lg-7 col-md-12 px-3 mx-auto">
+          <img src="image/pre-img.png" class="img-fluid"  alt="img-thumbnail">
         </div>
-        </section>
-          <div class="img-2">
-            <img src="image/pre-img.png" class="img-fluid" alt="img-thumbnail">
-          </div>
-      </section>
-      <section class="container justify-center">
-        <h2>!Bienvenidos!</h2>
-        <div>
-          <p>DJN design  fue un proyecto que comenzó por el 2011 siguiendo un sueño y desafío personal que no se podía quedar solo en ideas y así fue que comenzó la búsqueda de elementos electrónicos que puedan conformar el desarrollo de amplificadores de Auriculares obteniendo una potencia necesaria y de alta calidad. 
-            Hoy cuenta con productos vendidos en todo el país y clientes satisfechos!
-            El objetivo como marca es lograr que tengan la mejor experiencia de usabilidad con el producto, ofreciendo una alta calidad en sonido para fanáticos del audio y la música.
-          </p>
-        </div>
-      </section>
-      <section class="container">
-        <h2 class="main-h2"> <a name="Información">Información</a></h2>
-        <div>
-          <p class="text-center">Somos fabricantes de Amplificadores, Preamplificadores y Auriculares de alta definición
-            hechos en metal y madera natural, con diseños exclusivos, cada uno tiene su particularidad y distinción. En
-            cada momento podrán disfrutar de momentos únicos y una experiencia en sonido que no podrán olvidar,
-            sumergiéndose en un sonido natural con una profusión de detalles y una marcada apreciación de las
-            frecuencias bajas, medias y altas. Con bajos potentes y precisos, medios suaves, agudos bien definidos, con
-            voces claras y delicadas. <br>
-            Todo lo que un apasionado de la música puede desear.</p>
-        </div>
-        <section>
-          <div class="row p-5">
+      </div>
+    </section>
+    <section class="container justify-center">
+      <h2>!Bienvenidos!</h2>
+      <div>
+        <p>DJN design fue un proyecto que comenzó por el 2011 siguiendo un sueño y desafío personal que no se podía
+          quedar solo en ideas y así fue que comenzó la búsqueda de elementos electrónicos que puedan conformar el
+          desarrollo de amplificadores de Auriculares obteniendo una potencia necesaria y de alta calidad.
+          Hoy cuenta con productos vendidos en todo el país y clientes satisfechos!
+          El objetivo como marca es lograr que tengan la mejor experiencia de usabilidad con el producto, ofreciendo una
+          alta calidad en sonido para fanáticos del audio y la música.
+        </p>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="main-h2"> <a name="Información">Información</a></h2>
+      <div>
+        <p class="text-center">Somos fabricantes de Amplificadores, Preamplificadores y Auriculares de alta definición
+          hechos en metal y madera natural, con diseños exclusivos, cada uno tiene su particularidad y distinción. En
+          cada momento podrán disfrutar de momentos únicos y una experiencia en sonido que no podrán olvidar,
+          sumergiéndose en un sonido natural con una profusión de detalles y una marcada apreciación de las
+          frecuencias bajas, medias y altas. Con bajos potentes y precisos, medios suaves, agudos bien definidos, con
+          voces claras y delicadas. <br>
+          Todo lo que un apasionado de la música puede desear.</p>
+      </div>
+      <section>
+        <div class="row p-5">
           <div class="col-lg-6 col-sd-12 d-flex align-items-center ">
             <div>
               <h2 class="main-h2">Novedades</h2>
@@ -127,10 +164,10 @@
               <img src="https://i.ibb.co/YhP0Jzy/Auricular.jpg" class="img-thumbnail" alt="Auricular">
             </div>
           </div>
-        </section>
       </section>
-    </main>
-    <footer>
+    </section>
+  </main>
+  <footer>
     <section class="compras container">
       <div class="row">
         <div class="col-lg-4 text-center">
@@ -138,7 +175,8 @@
             <img src="image/icon/credit-card-2-front.svg" alt="credit-card">
           </div>
           <h4>Paga con Tarjeta</h4>
-          <p>Con Mercado Pago, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+          <p>Con Mercado Pago, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+          </p>
         </div>
         <div class="col-lg-4 text-center">
           <div class="img-tc container">
@@ -152,7 +190,8 @@
             <img src="image/icon/shield-check.svg" alt="compra-protegida">
           </div>
           <h4>Compra Protegida</h4>
-          <p>Te acompañamos hasta que recibas lo que compraste. <br> Y si no es lo que esperabas, te devolvemos el dinero.</p>
+          <p>Te acompañamos hasta que recibas lo que compraste. <br> Y si no es lo que esperabas, te devolvemos el
+            dinero.</p>
         </div>
       </div>
     </section>
@@ -181,7 +220,7 @@
         <p>Bulnes 828 - CABA - Argentina ▬ Horarios: 10hs a 18hs ▬ Telefonos: 4555-8646 ▬</p>
       </section>
     </section>
-  </div>  
+    </div>
   </footer>
 
 
@@ -189,8 +228,13 @@
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <!--AOS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

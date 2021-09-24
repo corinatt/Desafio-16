@@ -1,2 +1,22 @@
 @import url(../base/_listas.scss);
 @import url(../base/_variables.scss);
+
+.celular {
+    display: none;
+}
+@media only screen and(max-width:900px) {
+    .celular {
+        display: block;        
+    }
+    
+}
+.desktop {
+    display: block;
+
+}
+@media only screen and(max-width:900px) {
+    .desktop {
+        display: none;
+    }
+    
+}
